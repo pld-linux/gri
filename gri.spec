@@ -6,7 +6,7 @@ Release:	2
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://ftp1.sourceforge.net/gri/%{name}-%{version}.tgz
-Patch0:		%{name}-home_etc.patch
+Patch0:		%{name}-etc_dir.patch
 Icon:		grilogo.gif
 URL:		http://gri.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
