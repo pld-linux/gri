@@ -5,7 +5,7 @@ Version:	2.12.1
 Release:	2
 License:	GPL
 Group:		Applications/Engineering
-Source0:	http://ftp1.sourceforge.net/gri/%{name}-%{version}.tgz
+Source0:	http://dl.sourceforge.net/gri/%{name}-%{version}.tgz
 # Source0-md5:	f444afc5b88f3a9aad1b9b238bc90dc5
 Patch0:		%{name}-etc_dir.patch
 Icon:		grilogo.gif
