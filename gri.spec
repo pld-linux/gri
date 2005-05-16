@@ -1,15 +1,21 @@
 Summary:	A language for scientific illustration
 Summary(pl):	Jêzyk s³u¿±cy do tworzenia ilustracji i wykresów naukowych
 Name:		gri
-Version:	2.12.1
-Release:	2
+Version:	2.12.9
+Release:	1
 License:	GPL
 Group:		Applications/Engineering
 Source0:	http://dl.sourceforge.net/gri/%{name}-%{version}.tgz
-# Source0-md5:	f444afc5b88f3a9aad1b9b238bc90dc5
+# Source0-md5:	f4e0841ae78b439c7262d109bc2932d6
 Patch0:		%{name}-etc_dir.patch
 Icon:		grilogo.gif
 URL:		http://gri.sourceforge.net/
+BuildRequires:	ImageMagick
+BuildRequires:	ghostscript
+BuildRequires:	ghostscript-fonts-std
+BuildRequires:	libstdc++-devel
+BuildRequires:	perl-modules
+BuildRequires:	texinfo
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define         _noautocompressdoc      *.ps *.html *.gri *.dat
@@ -71,7 +77,7 @@ liniowym ³±cz±cym punkty pobrane z pliku 'file.dat'.
 %build
 %configure2_13
 
-%{__make} gri
+%{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
