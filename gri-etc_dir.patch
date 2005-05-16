@@ -1,6 +1,6 @@
 diff -Nru gri-2.12.1.old/popt/poptconfig.c gri-2.12.1/popt/poptconfig.c
---- gri-2.12.1.old/popt/poptconfig.c	Wed Sep 25 16:39:51 2002
-+++ gri-2.12.1/popt/poptconfig.c	Sat Mar 29 17:21:59 2003
+--- gri-2.12.1.old/src/popt/poptconfig.c	Wed Sep 25 16:39:51 2002
++++ gri-2.12.1/src/popt/poptconfig.c	Sat Mar 29 17:21:59 2003
 @@ -129,7 +129,7 @@
  }
  
@@ -40,13 +40,13 @@ diff -Nru gri-2.12.1.old/popt/poptconfig.c gri-2.12.1/popt/poptconfig.c
      return 0;
  }
 diff -Nru gri-2.12.1.old/startup.cc gri-2.12.1/startup.cc
---- gri-2.12.1.old/startup.cc	Wed Sep 25 16:39:51 2002
-+++ gri-2.12.1/startup.cc	Sat Mar 29 17:27:06 2003
+--- gri-2.12.1.old/src/startup.cc	Wed Sep 25 16:39:51 2002
++++ gri-2.12.1/src/startup.cc	Sat Mar 29 17:27:06 2003
 @@ -1137,12 +1137,17 @@
  	_done = 0;
  	_margin.assign("| ");
  #if defined(HAVE_GETENV)
--	char *            home = egetenv("HOME");
+-	char *home = egetenv("HOME");
 -	if (!home) {
 -		warning("Cannot getenv(HOME), so cannot perform grirc file");
 -		return;
