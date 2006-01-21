@@ -8,7 +8,6 @@ Group:		Applications/Engineering
 Source0:	http://dl.sourceforge.net/gri/%{name}-%{version}.tgz
 # Source0-md5:	f4e0841ae78b439c7262d109bc2932d6
 Patch0:		%{name}-etc_dir.patch
-Icon:		grilogo.gif
 URL:		http://gri.sourceforge.net/
 BuildRequires:	ImageMagick
 BuildRequires:	ghostscript
