@@ -1,5 +1,5 @@
 Summary:	A language for scientific illustration
-Summary(pl):	Jêzyk s³u¿±cy do tworzenia ilustracji i wykresów naukowych
+Summary(pl.UTF-8):   JÄ™zyk sÅ‚uÅ¼Ä…cy do tworzenia ilustracji i wykresÃ³w naukowych
 Name:		gri
 Version:	2.12.9
 Release:	1
@@ -44,26 +44,26 @@ linegraph connecting data points in the file called `file.dat'.
   draw curve		# draw line through data (autoscaled axes)
 
 
-%description -l pl
-Gri jest jêzykiem programowania stworzonym do tworzenia naukowych
-ilustracji i wykresów. Jest sterowany poleceniami, a nie klikaniem.
-Czêsto jest porównywany do LaTeXa w kontek¶cie du¿ych mo¿liwo¶ci
-wp³ywania na koñcowy rezultat. Gri generuje na wyj¶ciu standardowy
-PostScript, który mo¿na do³±czaæ do dokumentów przygotowywanych przez
-ró¿ne procesory tekstu.
+%description -l pl.UTF-8
+Gri jest jÄ™zykiem programowania stworzonym do tworzenia naukowych
+ilustracji i wykresÃ³w. Jest sterowany poleceniami, a nie klikaniem.
+CzÄ™sto jest porÃ³wnywany do LaTeXa w kontekÅ›cie duÅ¼ych moÅ¼liwoÅ›ci
+wpÅ‚ywania na koÅ„cowy rezultat. Gri generuje na wyjÅ›ciu standardowy
+PostScript, ktÃ³ry moÅ¼na doÅ‚Ä…czaÄ‡ do dokumentÃ³w przygotowywanych przez
+rÃ³Å¼ne procesory tekstu.
 
-Gri potrafi wygenerowaæ szereg ró¿nych typów wykresów: dwuwymiarowe,
-konturowe i graficzne. Oprócz mo¿liwo¶ci wysokopoziomowych ma tak¿e
-wystarczaj±ce mo¿liwo¶ci niskopoziomowe, aby pozwoliæ u¿ytkownikom na
-du¿y stopieñ dostosowania. Mo¿liwa jest precyzyjna kontrola wszystkich
-aspektów rysowania, w³±czenie z grubo¶ciami linii, kolorami i fontami.
-Obs³uga tekstu to podzbiór jêzyka TeX, co pozwala na ³atwe
+Gri potrafi wygenerowaÄ‡ szereg rÃ³Å¼nych typÃ³w wykresÃ³w: dwuwymiarowe,
+konturowe i graficzne. OprÃ³cz moÅ¼liwoÅ›ci wysokopoziomowych ma takÅ¼e
+wystarczajÄ…ce moÅ¼liwoÅ›ci niskopoziomowe, aby pozwoliÄ‡ uÅ¼ytkownikom na
+duÅ¼y stopieÅ„ dostosowania. MoÅ¼liwa jest precyzyjna kontrola wszystkich
+aspektÃ³w rysowania, wÅ‚Ä…czenie z gruboÅ›ciami linii, kolorami i fontami.
+ObsÅ‚uga tekstu to podzbiÃ³r jÄ™zyka TeX, co pozwala na Å‚atwe
 wykorzystanie greckich liter i symboli matematycznych w etykietach.
 
-Poni¿ej znajduje siê przyk³ad krótkiego dzia³aj±cego programu w Gri.
-Je¶li bêdzie zapisany w pliku 'example.gri' i potraktowany poleceniem
+PoniÅ¼ej znajduje siÄ™ przykÅ‚ad krÃ³tkiego dziaÅ‚ajÄ…cego programu w Gri.
+JeÅ›li bÄ™dzie zapisany w pliku 'example.gri' i potraktowany poleceniem
 'gri example', utworzy plik postscriptowy 'example.ps' z wykresem
-liniowym ³±cz±cym punkty pobrane z pliku 'file.dat'.
+liniowym Å‚Ä…czÄ…cym punkty pobrane z pliku 'file.dat'.
 
   open file.dat		# otworzenie pliku z kolumnami danych
   read columns x * y	# odczytanie 1. kolumny jako x i 3. jako y
