@@ -1,5 +1,5 @@
 Summary:	A language for scientific illustration
-Summary(pl.UTF-8):   Język służący do tworzenia ilustracji i wykresów naukowych
+Summary(pl.UTF-8):	Język służący do tworzenia ilustracji i wykresów naukowych
 Name:		gri
 Version:	2.12.9
 Release:	1
