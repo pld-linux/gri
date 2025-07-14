@@ -71,7 +71,7 @@ liniowym łączącym punkty pobrane z pliku 'file.dat'.
 
 %prep
 %setup -q
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 %configure2_13
